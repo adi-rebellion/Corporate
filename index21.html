@@ -1,0 +1,884 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Corporate Service | Karunya</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/themify-icons.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/flexslider.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/lightbox.min.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/ytplayer.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/theme.css" rel="stylesheet" type="text/css" media="all" />
+        <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
+        <!-- Favicon -->
+    <link rel="icon" href="img/favicon.ico">
+        <link href='http://fonts.googleapis.com/css?family=Lato:300,400%7CRaleway:100,400,300,500,600,700%7COpen+Sans:400,500,600' rel='stylesheet' type='text/css'>
+        <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Muli&display=swap" rel="stylesheet">
+    </head>
+    <style type="text/css">
+    	a:hover
+    	{	
+    		padding: 5px;
+
+    	}
+       .bird {
+    background-image: url(bd.svg);
+    background-size: auto 100%;
+    width: 88px;
+    height: 125px;
+    will-change: background-position;
+    -webkit-animation-name: fly-cycle;
+    animation-name: fly-cycle;
+    -webkit-animation-timing-function: steps(10);
+    animation-timing-function: steps(10);
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+}
+.bird--one {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-delay: -0.5s;
+    animation-delay: -0.5s;
+}
+.bird--two {
+    -webkit-animation-duration: 0.9s;
+    animation-duration: 0.9s;
+    -webkit-animation-delay: -0.75s;
+    animation-delay: -0.75s;
+}
+.bird--three {
+    -webkit-animation-duration: 1.25s;
+    animation-duration: 1.25s;
+    -webkit-animation-delay: -0.25s;
+    animation-delay: -0.25s;
+}
+.bird--four {
+    -webkit-animation-duration: 1.1s;
+    animation-duration: 1.1s;
+    -webkit-animation-delay: -0.5s;
+    animation-delay: -0.5s;
+}
+
+.bird-container--one {
+    -webkit-animation-duration: 15s;
+    animation-duration: 15s;
+    -webkit-animation-delay: 0;
+    animation-delay: 0;
+}
+.bird-container--two {
+    -webkit-animation-duration: 16s;
+    animation-duration: 16s;
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+.bird-container--three {
+    -webkit-animation-duration: 14.6s;
+    animation-duration: 14.6s;
+    -webkit-animation-delay: 9.5s;
+    animation-delay: 9.5s;
+}
+.bird-container--four {
+    -webkit-animation-duration: 16s;
+    animation-duration: 16s;
+    -webkit-animation-delay: 10.25s;
+    animation-delay: 10.25s;
+}
+ @-webkit-keyframes fly-cycle {
+ 100% {
+ background-position: -900px 0;
+}
+}
+ @keyframes fly-cycle {
+ 100% {
+ background-position: -900px 0;
+}
+}
+@-webkit-keyframes fly-right-one {
+ 0% {
+ left: -10%;
+ -webkit-transform: scale(0.3);
+ transform: scale(0.3);
+}
+ 10% {
+ left: 10%;
+ -webkit-transform: translateY(2vh) scale(0.4);
+ transform: translateY(2vh) scale(0.4);
+}
+ 20% {
+ left: 30%;
+ -webkit-transform: translateY(0vh) scale(0.5);
+ transform: translateY(0vh) scale(0.5);
+}
+ 30% {
+ left: 50%;
+ -webkit-transform: translateY(4vh) scale(0.6);
+ transform: translateY(4vh) scale(0.6);
+}
+ 40% {
+ left: 70%;
+ -webkit-transform: translateY(2vh) scale(0.6);
+ transform: translateY(2vh) scale(0.6);
+}
+ 50% {
+ left: 90%;
+ -webkit-transform: translateY(0vh) scale(0.6);
+ transform: translateY(0vh) scale(0.6);
+}
+ 60% {
+ left: 110%;
+ -webkit-transform: translateY(0vh) scale(0.6);
+ transform: translateY(0vh) scale(0.6);
+}
+ 100% {
+ left: 110%;
+ opacity: 1;
+ -webkit-transform: translateY(0vh) scale(0.6);
+ transform: translateY(0vh) scale(0.6);
+}
+}
+@keyframes fly-right-one {
+ 0% {
+ left: -10%;
+ -webkit-transform: scale(0.3);
+ transform: scale(0.3);
+}
+ 10% {
+ left: 10%;
+ -webkit-transform: translateY(2vh) scale(0.4);
+ transform: translateY(2vh) scale(0.4);
+}
+ 20% {
+ left: 30%;
+ -webkit-transform: translateY(0vh) scale(0.5);
+ transform: translateY(0vh) scale(0.5);
+}
+ 30% {
+ left: 50%;
+ -webkit-transform: translateY(4vh) scale(0.6);
+ transform: translateY(4vh) scale(0.6);
+}
+ 40% {
+ left: 70%;
+ -webkit-transform: translateY(2vh) scale(0.6);
+ transform: translateY(2vh) scale(0.6);
+}
+ 50% {
+ left: 90%;
+ -webkit-transform: translateY(0vh) scale(0.6);
+ transform: translateY(0vh) scale(0.6);
+}
+ 60% {
+ left: 110%;
+ -webkit-transform: translateY(0vh) scale(0.6);
+ transform: translateY(0vh) scale(0.6);
+}
+ 100% {
+ left: 110%;
+ opacity: 1;
+ -webkit-transform: translateY(0vh) scale(0.6);
+ transform: translateY(0vh) scale(0.6);
+}
+}
+@-webkit-keyframes fly-right-two {
+ 0% {
+ left: -10%;
+ opacity: 1;
+ -webkit-transform: translateY(-2vh) scale(0.5);
+ transform: translateY(-2vh) scale(0.5);
+}
+ 10% {
+ left: 10%;
+ -webkit-transform: translateY(0vh) scale(0.4);
+ transform: translateY(0vh) scale(0.4);
+}
+ 20% {
+ left: 30%;
+ -webkit-transform: translateY(-4vh) scale(0.6);
+ transform: translateY(-4vh) scale(0.6);
+}
+ 30% {
+ left: 50%;
+ -webkit-transform: translateY(1vh) scale(0.45);
+ transform: translateY(1vh) scale(0.45);
+}
+ 40% {
+ left: 70%;
+ -webkit-transform: translateY(-2.5vh) scale(0.5);
+ transform: translateY(-2.5vh) scale(0.5);
+}
+ 50% {
+ left: 90%;
+ -webkit-transform: translateY(0vh) scale(0.45);
+ transform: translateY(0vh) scale(0.45);
+}
+ 51% {
+ left: 110%;
+ -webkit-transform: translateY(0vh) scale(0.45);
+ transform: translateY(0vh) scale(0.45);
+}
+ 100% {
+ left: 110%;
+ -webkit-transform: translateY(0vh) scale(0.45);
+ transform: translateY(0vh) scale(0.45);
+}
+}
+@keyframes fly-right-two {
+ 0% {
+ left: -10%;
+ opacity: 1;
+ -webkit-transform: translateY(-2vh) scale(0.5);
+ transform: translateY(-2vh) scale(0.5);
+}
+ 10% {
+ left: 10%;
+ -webkit-transform: translateY(0vh) scale(0.4);
+ transform: translateY(0vh) scale(0.4);
+}
+ 20% {
+ left: 30%;
+ -webkit-transform: translateY(-4vh) scale(0.6);
+ transform: translateY(-4vh) scale(0.6);
+}
+ 30% {
+ left: 50%;
+ -webkit-transform: translateY(1vh) scale(0.45);
+ transform: translateY(1vh) scale(0.45);
+}
+ 40% {
+ left: 70%;
+ -webkit-transform: translateY(-2.5vh) scale(0.5);
+ transform: translateY(-2.5vh) scale(0.5);
+}
+ 50% {
+ left: 90%;
+ -webkit-transform: translateY(0vh) scale(0.45);
+ transform: translateY(0vh) scale(0.45);
+}
+ 51% {
+ left: 110%;
+ -webkit-transform: translateY(0vh) scale(0.45);
+ transform: translateY(0vh) scale(0.45);
+}
+ 100% {
+ left: 110%;
+ -webkit-transform: translateY(0vh) scale(0.45);
+ transform: translateY(0vh) scale(0.45);
+}
+}
+    	
+    </style>
+    	
+    <body class="scroll-assist">
+        <div class="nav-container">
+            <a id="top"></a>
+            <nav class="bg-dark">
+                
+                <div class="nav-bar">
+                    <div class="module left">
+                        <a href="index.html">
+                            <img class="logo logo-light" alt="Foundry" src="img/logo1.png" />
+                            <img class="logo logo-dark" alt="Foundry" src="img/logo1.png" />
+                        </a>
+                    </div>
+                    <div class="module widget-handle mobile-toggle right visible-sm visible-xs">
+                        <i class="ti-menu"></i>
+                    </div>
+                    <div class="module-group right">
+                        <div class="module left">
+                            <ul class="menu">
+                                <li>
+                                    <a href="#">
+                                        Home
+                                    </a>
+                                </li>
+                                <li >
+                                    <a href="#">
+                                        Pages
+                                   </a>
+                                </li>
+                                <li >
+                                    <a href="#">
+                                        Elements
+                                    </a>
+                                    
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        Portfolio
+                                    </a>
+                                   </li>
+                                <li>
+                                    <a href="#">
+                                        Shop
+                                    </a>
+                                    
+                                </li>
+                                <li class="has-dropdown">
+                                    <a href="#">
+                                        Blog
+                                    </a>
+                                    <ul>
+                                        <li class="has-dropdown">
+                                            <a href="#">
+                                                Listing
+                                            </a>
+                                            <ul>
+                                                <li>
+                                                    <a href="blog-sidebar.html">
+                                                        Sidebar Left
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="blog-sidebar-right.html">
+                                                        Sidebar Right
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="blog-no-sidebar.html">
+                                                        No Sidebar
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-dropdown">
+                                            <a href="#">
+                                                Masonry
+                                            </a>
+                                            <ul>
+                                                <li>
+                                                    <a href="blog-masonry-sidebar.html">
+                                                        Sidebar Left
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="blog-masonry-sidebar-right.html">
+                                                        Sidebar Right
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="blog-masonry.html">
+                                                        3 Columns
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="blog-masonry-2col.html">
+                                                        2 Columns
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li class="has-dropdown">
+                                            <a href="#">
+                                                Single
+                                            </a>
+                                            <ul>
+                                                <li>
+                                                    <a href="blog-single-sidebar.html">
+                                                        Sidebar Left
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="blog-single-sidebar-right.html">
+                                                        Sidebar Right
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="blog-single-no-sidebar.html">
+                                                        No Sidebar
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <a href="blog-single-disqus.html">
+                                                        Disqus Comments
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                        <li>
+                                            <a href="blog-simple-feed.html">
+                                                Simple Feed
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <!--end of menu module-->
+                       
+                      
+                       
+                    </div>
+                    <!--end of module group-->
+                </div>
+            </nav>
+        </div>
+        <section class="cover fullscreen image-slider slider-arrow-controls controls-inside parallax">
+                <ul class="slides">
+                    <li class="overlay image-bg bg-light">
+                        <div class="background-image-holder">
+                            <img alt="image" class="background-image" src="img/5.jpg"  />
+                        </div>
+                        <div class="container v-align-transform">
+                            <div class="row">
+                                <div class="col-md-6 col-sm-8" >
+                                  <div class="bird-container bird-container--one">
+      <div class="bird bird--one"></div>
+    </div>
+                                	 <h4 class="mb16" style="color: white;"><a></a>DoVE Presents</h4>
+                                    <h1 class="mb40 mb-xs-16 large"style="color: black;font-family: 'Pacifico', cursive;">Karunya<span style="color: white;"> Corporate Service</span></h1>
+                                    <h5 class="uppercase mb16"style="color: white;">Revolutionise the world through Jesus</h5>
+                                    
+                                    <a class="btn btn-lg" href="#" style="font-family: 'Pacifico', cursive;">Get in Touch</a>
+                                </div>
+                            </div>
+                            <!--end of row-->
+                        </div>
+                        <!--end of container-->
+                    </li>
+                </ul>
+            </section>
+            <br>
+             <section class="pt0 pb0 pb-xs-80 image-zoom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6 mb-xs-40">
+                            <img class="p32" alt="Pic" src="img/ob.jpg" />
+                        </div>
+                        <div class="col-md-5 col-md-push-1 col-sm-6 mt104 mt-sm-80 mt-xs-0 text-center-xs">
+                            <h5 class="uppercase" style="font-size: 25px;">
+                                <strong>Verse of the Day</strong>
+                            </h5>
+                            <h4 class="mb160 mb-xs-80">Love the Lord your God with all your heart and with all your soul and with all your mind and with all your strength.’<br>
+                           <span style="font-family: 'Pacifico', cursive;"> Mark 12:30</span></h4>
+
+                         
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+            
+             <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-4 col-sm-6">
+                            <div class="pricing-table pt-1 text-center emphasis">
+                              
+                                <span class="price" style="font-family: 'Pacifico', cursive;">Jesus Journey</span>
+                                
+                             
+                                <!-- Trigger the modal with a button -->
+<button type="button" class="btn  btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+
+<!-- Modal -->
+<div id="myModal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Jesus Journey</h4>
+      </div>
+      <div class="modal-body"style="color: black">
+        <p>What was the first thought that struck you when someone said Jesus Journey? Think! In simple words it's nothing but to Journey with Him to the Father's House. Every journey isn't a cakewalk, you might have hardships that wreck you. But the journey of life started the moment you were out of your Mother's womb and it's still on. It may have wrecked you and might still be wrecking you. Here's what matters when you say Jesus Journey, not how you're journeying but who is journeying with you, not how big the obstacle in front of you is but how big your companion is in the journey and not how narrow your road is but who is walking with you in this. It's ultimately Jesus who walks you through every phase of your life. 
+Journeying with Jesus is probably the most simple way because all we need to do is BELIEVE and Just BELIEVE. Pray and Believe, the only solution to any problem that looks big. The Jesus Journey has helped each one of us immensely and uniquely in wondrous ways, despite how flawed we were. We encourage you to read and be touched by testimonials in the Jesus Journey Testimonial section which boldly underlines the Deep Love of God.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+                                
+                            </div>
+                            <!--end of pricing table-->
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="pricing-table pt-1 text-center boxed">
+                                
+                                <span class="price" style="font-family: 'Pacifico', cursive;">Prepratory Prayer</span>
+                                <br>
+                                
+                                <!-- Trigger the modal with a button -->
+<button type="button" class="btn  btn-lg" data-toggle="modal" data-target="#myModal1">Open Modal</button>
+
+<!-- Modal -->
+<div id="myModal1" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Prepratory Prayer</h4>
+      </div>
+      <div class="modal-body" style="color: black">
+        <p>Winning a soul for the Kingdom is not a one man show we believe, but when one soul receives Christ as his personal saviour there is celebration and rejoicing above the skies. It's beautiful how people in Christ come together to pray for the lost souls to experience that love which was revealed on the Cross where Jesus died for the sins of You and Me. Every individual needs the guidance of the Holy Spirit to win souls. Not by human strength but only the Strength that comes from above and the Power of His Blood.
+Every Saturday at 5:00 PM worship leaders, ushers, musicians, audio and video technicians join together for a time of worship and intercession. We pray and intercede for the guidance of the Holy Spirit during the worship, for the congregation to experience the touch of His Love and for the man of God who will be sharing the word that each one of them is Blessed. This has helped not only those on the pulpit but also helped us see a huge shift among the congregation. Expanding our Father's House is a great privilege. The House of the Lord is open to anyone. Come and be a part.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+                               
+                            </div>
+                            <!--end of pricing table-->
+                        </div>
+                        <div class="col-md-4 col-sm-6">
+                            <div class="pricing-table pt-1 text-center emphasis">
+                              
+                                <span class="price" style="font-family: 'Pacifico', cursive;">Corporate Service</span>
+
+                               
+                               <!-- Trigger the modal with a button -->
+<button type="button" class="btn b btn-lg" data-toggle="modal" data-target="#myModal2">Open Modal</button>
+
+<!-- Modal -->
+<div id="myModal2" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Corporate Service</h4>
+      </div>
+      <div class="modal-body"style="color: black">
+        <p>Some text in the modal.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+                                
+                            </div>
+                            <!--end of pricing table-->
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+             <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <h4 class="uppercase mb16">Countdown Timer</h4>
+                            <p class="lead mb64">
+                                Adjust the countdown date with the 'data-date' attribute (YYYY/MM/DD)
+                            </p>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <div class="countdown mb40" data-date="2015/12/01"></div>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+            <section class="page-title page-title-1 image-bg overlay parallax">
+                <div class="background-image-holder" >
+                    <img alt="Background Image" class="background-image" src="img/12.jpg" />
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <h2 class=" mb0" style="font-family: 'Pacifico', cursive;" >Who We Are</h2>
+                            <br>
+                            <p style="font-family: 'Muli', sans-serif; font-size: 20px; word-spacing: 5px;">
+                                We at Corporate fellowship nurture and reach out to the young students with the Gospel who are lost, who don’t know their purpose in life, entangled in the web of unknown sins which ruins their life. <br>We share the immense love of Christ which can transform every individual into a fine being. We here at DoVE are completely dedicated to this service besides counselling the students with prayer, rebuilding their Identity with compassion and love. We commission them to be the Army for Christ who are ready anytime to share the Gospel.
+                            </p>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+                
+            </section>
+            
+            <section class="pt0 pb0">
+                <div class="slider-all-controls">
+                    <ul class="slides">
+                        <li class="vid-bg image-bg overlay pt240 pb240">
+                            <div class="background-image-holder">
+                                <img alt="Background Image" class="background-image" src="https://unsplash.imgix.net/photo-1425321395722-b1dd54a97cf3?q=75&fm=jpg&w=1080&fit=max&s=9e4ce3e023621d6f94259eea8fa3b856">
+                            </div>
+                            <div class="fs-vid-background">
+                                <video muted loop>
+                                    <source src="video/video1.webm" type="video/webm">
+                                    <source src="video/video1.mp4" type="video/mp4">
+                                    <source src="video/video1.ogv" type="video/ogg">
+                                </video>
+                            </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-12 text-center">
+                                        <h1 class="large">Flexslider + Video Backgrounds</h1>
+                                        <p class="lead">
+                                            Simple markup with intellegent auto play and pause functionality.
+                                        </p>
+                                    </div>
+                                </div>
+                                <!--end of row-->
+                            </div>
+                            <!--end of container-->
+                        </li>
+                        <li class="vid-bg image-bg overlay pt240 pb240">
+                            <div class="background-image-holder">
+                                <img alt="Background Image" class="background-image" src="https://unsplash.imgix.net/photo-1425321395722-b1dd54a97cf3?q=75&fm=jpg&w=1080&fit=max&s=9e4ce3e023621d6f94259eea8fa3b856">
+                            </div>
+                            <div class="fs-vid-background">
+                                <video muted loop>
+                                    <source src="video/video3.webm" type="video/webm">
+                                    <source src="video/video3.mp4" type="video/mp4">
+                                    <source src="video/video3.ogv" type="video/ogg">
+                                </video>
+                            </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-12 text-center">
+                                        <h1 class="large">Flexslider + Video Backgrounds</h1>
+                                        <p class="lead">
+                                            Simple markup with intellegent auto play and pause functionality.
+                                        </p>
+                                    </div>
+                                </div>
+                                <!--end of row-->
+                            </div>
+                            <!--end of container-->
+                        </li>
+                        <li class="vid-bg image-bg overlay pt240 pb240">
+                            <div class="background-image-holder">
+                                <img alt="Background Image" class="background-image" src="https://unsplash.imgix.net/photo-1425321395722-b1dd54a97cf3?q=75&fm=jpg&w=1080&fit=max&s=9e4ce3e023621d6f94259eea8fa3b856">
+                            </div>
+                            <div class="fs-vid-background">
+                                <video muted loop>
+                                    <source src="video/video3.webm" type="video/webm">
+                                    <source src="video/video3.mp4" type="video/mp4">
+                                    <source src="video/video3.ogv" type="video/ogg">
+                                </video>
+                            </div>
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-sm-12 text-center">
+                                        <h1 class="large">Flexslider + Video Backgrounds</h1>
+                                        <p class="lead">
+                                            Simple markup with intellegent auto play and pause functionality.
+                                        </p>
+                                    </div>
+                                </div>
+                                <!--end of row-->
+                            </div>
+                            <!--end of container-->
+                        </li>
+                    </ul>
+                </div>
+            </section>
+             <section class="pt180 pb180 pt-xs-80 pb-xs-80">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-12 text-center">
+                            <h3 class="mb64 mb-xs-32">News & Views</h3>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                    <div class="row masonry">
+                        <div class="masonry-item col-md-4 col-sm-6">
+                            <div class="feature bg-secondary p32 pt40 pb40 mb0">
+                                <span class="fade-1-4 mb16 display-block">August 3, 2015 in inspiration</span>
+                                <h4 class="mb120">Building effective design systems</h4>
+                                <a href="#" class="mb0 right">
+                                    <h6 class="uppercase mb0 color-primary fade-on-hover">Read Story
+                                        <i class="ti-arrow-right"></i>
+                                    </h6>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="masonry-item col-md-4 col-sm-6">
+                            <div class="feature bg-secondary p32 pt40 pb40 mb0">
+                                <span class="fade-1-4 mb16 display-block">July 21, 2015 in design</span>
+                                <h4 class="mb120">Selecting the perfect font for the job. Our top tips.</h4>
+                                <a href="#" class="mb0 right">
+                                    <h6 class="uppercase mb0 color-primary fade-on-hover">Read Story
+                                        <i class="ti-arrow-right"></i>
+                                    </h6>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="masonry-item col-md-4 col-sm-6">
+                            <div class="feature bg-secondary p32 pt40 pb40 mb0">
+                                <span class="fade-1-4 mb16 display-block">July 29, 2015 in design</span>
+                                <h4 class="mb120">Achieving total visual harmony</h4>
+                                <a href="#" class="mb0 right">
+                                    <h6 class="uppercase mb0 color-primary fade-on-hover">Read Story
+                                        <i class="ti-arrow-right"></i>
+                                    </h6>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="masonry-item col-md-4 col-sm-6">
+                            <div class="feature bg-secondary p32 pt40 pb40 mb0">
+                                <span class="fade-1-4 mb16 display-block">July 14, 2015 in interface</span>
+                                <h4 class="mb120">A closer look at case studies</h4>
+                                <a href="#" class="mb0 right">
+                                    <h6 class="uppercase mb0 color-primary fade-on-hover">Read Story
+                                        <i class="ti-arrow-right"></i>
+                                    </h6>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="masonry-item col-md-4 col-sm-6">
+                            <div class="feature bg-secondary p32 pt40 pb40 mb0">
+                                <span class="fade-1-4 mb16 display-block">June 25, 2015 in music</span>
+                                <h4 class="mb120">The ultimate office mixtape, Foundry edition</h4>
+                                <a href="#" class="mb0 right">
+                                    <h6 class="uppercase mb0 color-primary fade-on-hover">Read Story
+                                        <i class="ti-arrow-right"></i>
+                                    </h6>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="masonry-item col-md-4 col-sm-6">
+                            <div class="feature bg-secondary p32 pt40 pb40 mb0">
+                                <span class="fade-1-4 mb16 display-block">June 17, 2015 in lifestyle</span>
+                                <h4 class="mb120">A guide to post-week undwinding</h4>
+                                <a href="#" class="mb0 right">
+                                    <h6 class="uppercase mb0 color-primary fade-on-hover">Read Story
+                                        <i class="ti-arrow-right"></i>
+                                    </h6>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+             <section class="page-title page-title-4 bg-secondary">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3 class="uppercase mb0">Contact Us</h3>
+                        </div>
+                        <div class="col-md-6 text-right">
+                            <ol class="breadcrumb breadcrumb-2">
+                                <li>
+                                    <a href="index.html">Home</a>
+                                </li>
+                                <li>
+                                    <a href="#">Pages</a>
+                                </li>
+                                <li class="active">Contact</li>
+                            </ol>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+            <section class="p0">
+                <div class="map-holder pt160 pb160">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.3598133902847!2d76.74187231428809!3d10.93616925921646!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba866bd6aaaaaab%3A0xc650b8a75e7b51f0!2sKarunya+Institute+of+Technology+and+Sciences+(Deemed+University)!5e0!3m2!1sen!2sin!4v1562794577612!5m2!1sen!2sin" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+                </div>
+            </section>
+            <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-5">
+                            <h4 class="uppercase">Get In Touch</h4>
+                            <p>
+                                At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident,
+                            </p>
+                            <hr>
+                            <p>
+                                438 Marine Parade
+                                <br /> Elwood, Victoria
+                                <br /> P.O Box 3184
+                            </p>
+                            <hr>
+                            <p>
+                                <strong>E:</strong> hello@foundry.net
+                                <br />
+                                <strong>P:</strong> +614 3948 2726
+                                <br />
+                            </p>
+                        </div>
+                        <div class="col-sm-6 col-md-5 col-md-offset-1">
+                            <form class="form-email" data-success="Thanks for your submission, we will be in touch shortly." data-error="Please fill all fields correctly.">
+                                <input type="text" class="validate-required" name="name" placeholder="Your Name" />
+                                <input type="text" class="validate-required validate-email" name="email" placeholder="Email Address" />
+                                <textarea class="validate-required" name="message" rows="4" placeholder="Message"></textarea>
+                                <button type="submit">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                    <!--end of row-->
+                </div>
+                <!--end of container-->
+            </section>
+                
+            </section>
+       
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <span class="sub">&copy; Copyright 2016 - Medium Rare</span>
+                        </div>
+                        <div class="col-sm-6 text-right">
+                            <ul class="list-inline social-list">
+                                <li>
+                                    <a href="#">
+                                        <i class="ti-twitter-alt"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="ti-facebook"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="ti-dribbble"></i>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#">
+                                        <i class="ti-vimeo-alt"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <!--end of container-->
+               <!--  <a class="btn btn-sm fade-half back-to-top inner-link" href="#top">Top</a> -->
+            </footer>
+        </div>
+        <script src="js/jquery.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/flickr.js"></script>
+        <script src="js/flexslider.min.js"></script>
+        <script src="js/lightbox.min.js"></script>
+        <script src="js/masonry.min.js"></script>
+        <script src="js/twitterfetcher.min.js"></script>
+        <script src="js/spectragram.min.js"></script>
+        <script src="js/ytplayer.min.js"></script>
+        <script src="js/countdown.min.js"></script>
+        <script src="js/smooth-scroll.min.js"></script>
+        <script src="js/parallax.js"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
